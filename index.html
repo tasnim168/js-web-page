@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task of Today</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        </style>
+        <style>
+        .poppins{
+        font-family: "Poppins", serif;
+        }
+        </style>
+</head>
+<body class="bg-blue-50 min-h-screen ">
+
+<!-- navber section -->
+     <section>
+        <div class="navbar bg-base-100 shadow-sm flex justify-between mx-auto p-5 rounded-2xl mb-5">
+            <div class="flex justify-center items-center gap-2">
+                <img class="w-10" src="assets/logo.png" alt="">
+              <a class="text-2xl poppins">Dev<span class="font-bold">Board</span></a>
+              </div>
+            <div class="flex gap-3 items-center">
+                 <div class="flex justify-center items-center gap-2 bg-blue-50 rounded-2xl p-2"><i class="fa-solid fa-square-check fa-xl" style="color: blue;" ></i><p class="font-bold">23</p></div>   
+              <!-- <div class="dropdown dropdown-end"> -->
+                <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar">
+                  <div id="bg-btn" class="w-10 rounded-full">
+                    <img
+                    class="w-10 p-1"
+                      alt="Tailwind CSS Navbar component"
+                      src="assets/theme-btn.png" />
+                  </div>
+                </div>
+            </div>
+          </div>
+     </section>
+<!-- main body -->
+    <section class="flex  mx-auto">
+        <div>
+            <main class="flex bg-white w-full  rounded-t-lg  h-40 justify-center">
+                <div class="flex items-center bg-blue-50 rounded-3xl px-5 py-5 m-3 gap-3 w-64">
+                <div class="bg-white p-3 rounded-full">
+                    <i class="fa-solid fa-square-check fa-xl" style="color: blue;" >
+                    </i>
+                </div>
+                    <div>
+                    <h3 class="poppins">Task Assigned</h3>
+                    <p id="count-minus" class="font-bold">6</p>
+                    </div>
+                </div>
+                <div id="discover" class="flex items-center bg-linear-to-r from-cyan-500 to-blue-500 rounded-3xl px-5 py-5 m-3 gap-3 w-8/12">
+                    <img src="assets/board.png" alt="">
+                    <h3 class="text-xl font-semibold">Discover Something New Today!</h3>
+                </div>
+                <div class="flex  items-center bg-blue-50 rounded-3xl px-5 py-5 m-3 gap-3 w-64">
+                    <img src="assets/calender.png" alt="">
+                    <p id="current-date">Tue Feb 25 2025</p>
+                </div>
+        
+            </main>
+            <div>
+                <hr style="border: none; border-top: 1px dashed gray;">
+            </div> 
+<!-- Cards -->
+            <div class="grid grid-cols-3 gap-2  bg-white pb-6">
+<!-- card 1 -->
+                <div class="card  bg-blue-50 card-lg shadow-sm mx-2 my-2">
+                    <div class="card-body">
+                        <p class="bg-white rounded  p-1">Shop Ease</p>
+                      <h2 class="card-title">Fix Mobile Button Issue</h2>
+                      <p class="bg-white p-1 rounded-lg poppins ">A card component has a figure, a body part, and inside body there are title and actions parts</p>
+                      <div class="justify-between items-center card-actions">
+                        <div><p>Deadline</p>
+                            <h3>21 March 2025</h3>
+                        </div>
+                        <button class="btn btn-primary">Completed</button>
+                      </div>
+                    </div>
+                  </div>
+<!-- card 2 -->
+                  <div class="card m-1 bg-blue-50 card-lg shadow-sm mx-2 my-2">
+                        <div class="card-body">
+                            <p class="bg-white rounded  p-1">Shop Pay</p>
+                          <h2 class="card-title">Add Pay Success Modal</h2>
+                          <p class="bg-white p-1 rounded-lg poppins ">A card component has a figure, a body part, and inside body there are title and actions parts</p>
+                          <div class="justify-between items-center card-actions">
+                            <div><p>Deadline</p>
+                                <h3>21 March 2025</h3>
+                            </div>
+                            <button class="btn btn-primary">Completed</button>
+                          </div>
+                        </div>
+                      </div>
+    
+<!-- card 3 -->
+            <div class="card m-1 bg-blue-50 card-lg shadow-sm mx-2 my-2">
+                <div class="card-body">
+                    <p class="bg-white rounded  p-1">Meta</p>
+                  <h2 class="card-title">Add new reaction</h2>
+                  <p class="bg-white p-1 rounded-lg poppins ">A card component has a figure, a body part, and inside body there are title and actions parts</p>
+                  <div class="justify-between items-center card-actions">
+                    <div><p>Deadline</p>
+                        <h3>21 March 2025</h3>
+                    </div>
+                    <button  class=" btn btn-primary">Completed</button>
+                  </div>
+                </div>
+              </div>
+<!-- card 4 -->
+              <div class="card m-1 bg-blue-50 card-lg shadow-sm mx-2 my-2">
+                    <div class="card-body">
+                        <p class="bg-white rounded  p-1">Programming Hero</p>
+                      <h2 class="card-title">Fix Video Loading Issue</h2>
+                      <p class="bg-white p-1 rounded-lg poppins ">A card component has a figure, a body part, and inside body there are title and actions parts</p>
+                      <div class="justify-between items-center card-actions">
+                        <div><p>Deadline</p>
+                            <h3>21 March 2025</h3>
+                        </div>
+                        <button class=" btn btn-primary">Completed</button>
+                      </div>
+                    </div>
+                  </div>
+<!-- card 5 -->
+                <div class="card m-1 bg-blue-50 card-lg shadow-sm mx-2 my-2">
+                    <div class="card-body">
+                        <p class="bg-white rounded  p-1">Google LLC</p>
+                      <h2 class="card-title">Integrate AI Search</h2>
+                      <p class="bg-white p-1 rounded-lg poppins ">A card component has a figure, a body part, and inside body there are title and actions parts</p>
+                      <div class="justify-between items-center card-actions">
+                        <div><p>Deadline</p>
+                            <h3>21 March 2025</h3>
+                        </div>
+                        <button class=" btn btn-primary">Completed</button>
+                      </div>
+                    </div>
+                  </div>
+<!-- card 6 -->
+                  <div class="card m-1 bg-blue-50 card-lg shadow-sm mx-2 my-2">
+                        <div class="card-body">
+                            <p class="bg-white rounded  p-1">Polygon Tech</p>
+                          <h2 class="card-title">Review Ami Probashi Site</h2>
+                          <p class="bg-white p-1 rounded-lg poppins ">A card component has a figure, a body part, and inside body there are title and actions parts</p>
+                          <div class="justify-between items-center card-actions">
+                            <div><p>Deadline</p>
+                                <h3>21 March 2025</h3>
+                            </div>
+                            <button class=" btn btn-primary">Completed</button>
+                          </div>
+                        </div>
+                      </div>
+            </div>
+        </div>
+        </div>
+        
+        <aside class="bg-white w-2/3 min-h-screen rounded-2xl mx-4">
+            <div class="grid p-5 mx-auto">
+                <div class="flex justify-center items-center gap-2 p-4">
+                    <img src="assets/activity.png" alt="">
+                    <h3>Activity Log</h3>
+                </div>
+                <button class=" btn btn-primary mx-16">Clear History</button>
+            </div>
+            <div>
+                <hr class="" style="border: none; border-top: 1px dashed gray;">
+            </div> 
+        </aside>
+    </section>
+    <script src="script/script.js"></script>
+    <script src="script/complete.js"></script>
+    <script src="utilities/utilities.js"></script>
+    <script src="script/date.js"></script>
+    <script src="script/bgcolor.js"></script>
+</body>
+</html>
