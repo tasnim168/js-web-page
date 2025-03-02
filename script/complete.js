@@ -1,22 +1,106 @@
-let number=document.getElementById('count-minus').innerText;
-let convertedNumber=parseInt(number);
-// console.log(typeof convertedNumber);
-// function reduceNumber() {
-//     if (convertedNumber > 0) {
-//         convertedNumber -= 1;  // Decrease the number by 1
-//         document.getElementById("count-minus").innerText = convertedNumber; // Update the displayed number
-//     } else {
-//         alert("The number cannot be reduced further!");
-//     }
-// }
+document.getElementById('btn1').addEventListener('click',function(){
+    alert();
+    const promotion=document.getElementById('promotion').innerText;
+    let convertedPromotion=parseInt(promotion);
+    const reduction=document.getElementById('count-minus').innerText;
+    let convertedReduction=parseInt(reduction);
+    // console.log(convertedReduction);
+    if(convertedReduction>0){
+        convertedReduction=convertedReduction-1;
+        convertedPromotion=convertedPromotion+1;
+        document.getElementById('promotion').innerText=convertedPromotion;
+        document.getElementById('count-minus').innerText=convertedReduction;
+    }
+    const button=document.getElementById('btn1');
+    button.disabled=true;
 
-// Get all buttons with the class 'btn' and 'btn-primary'
-// const buttons = document.querySelectorAll('.btn.btn-primary');
+})
 
-// Add event listener to each button to trigger the reduceNumber function when clicked
-// buttons.forEach(button => {
-//     button.addEventListener('click', reduceNumber);
-// });
+document.getElementById('btn2').addEventListener('click',function(){
+    alert();
+    const promotion=document.getElementById('promotion').innerText;
+    let convertedPromotion=parseInt(promotion);
+    const reduction=document.getElementById('count-minus').innerText;
+    let convertedReduction=parseInt(reduction);
+    // console.log(convertedReduction);
+    if(convertedReduction>0){
+        convertedReduction=convertedReduction-1;
+        convertedPromotion=convertedPromotion+1;
+        document.getElementById('promotion').innerText=convertedPromotion;
+        document.getElementById('count-minus').innerText=convertedReduction;
+    }
+    const button=document.getElementById('btn2');
+    button.disabled=true;
+
+})
+document.getElementById('btn3').addEventListener('click',function(){
+    alert();
+    const promotion=document.getElementById('promotion').innerText;
+    let convertedPromotion=parseInt(promotion);
+    const reduction=document.getElementById('count-minus').innerText;
+    let convertedReduction=parseInt(reduction);
+    // console.log(convertedReduction);
+    if(convertedReduction>0){
+        convertedReduction=convertedReduction-1;
+        convertedPromotion=convertedPromotion+1;
+        document.getElementById('promotion').innerText=convertedPromotion;
+        document.getElementById('count-minus').innerText=convertedReduction;
+    }
+    const button=document.getElementById('btn3');
+    button.disabled=true;
+
+})
+document.getElementById('btn4').addEventListener('click',function(){
+    alert();
+    const promotion=document.getElementById('promotion').innerText;
+    let convertedPromotion=parseInt(promotion);
+    const reduction=document.getElementById('count-minus').innerText;
+    let convertedReduction=parseInt(reduction);
+    // console.log(convertedReduction);
+    if(convertedReduction>0){
+        convertedReduction=convertedReduction-1;
+        convertedPromotion=convertedPromotion+1;
+        document.getElementById('promotion').innerText=convertedPromotion;
+        document.getElementById('count-minus').innerText=convertedReduction;
+    }
+    const button=document.getElementById('btn4');
+    button.disabled=true;
+
+})
+document.getElementById('btn5').addEventListener('click',function(){
+    alert();
+    const promotion=document.getElementById('promotion').innerText;
+    let convertedPromotion=parseInt(promotion);
+    const reduction=document.getElementById('count-minus').innerText;
+    let convertedReduction=parseInt(reduction);
+    // console.log(convertedReduction);
+    if(convertedReduction>0){
+        convertedReduction=convertedReduction-1;
+        convertedPromotion=convertedPromotion+1;
+        document.getElementById('promotion').innerText=convertedPromotion;
+        document.getElementById('count-minus').innerText=convertedReduction;
+    }
+    const button=document.getElementById('btn5');
+    button.disabled=true;
+
+})
+document.getElementById('btn6').addEventListener('click',function(){
+    alert();
+    const promotion=document.getElementById('promotion').innerText;
+    let convertedPromotion=parseInt(promotion);
+    const reduction=document.getElementById('count-minus').innerText;
+    let convertedReduction=parseInt(reduction);
+    // console.log(convertedReduction);
+    if(convertedReduction>0){
+        convertedReduction=convertedReduction-1;
+        convertedPromotion=convertedPromotion+1;
+        document.getElementById('promotion').innerText=convertedPromotion;
+        document.getElementById('count-minus').innerText=convertedReduction;
+    }
+    const button=document.getElementById('btn6');
+    button.disabled=true;
+
+})
 
 
 
@@ -24,27 +108,3 @@ let convertedNumber=parseInt(number);
 
 
 
-
-
-
-
-
-
-
-// count minus first number is 6
-//  document.getElementById('reduce-btn1').addEventListener('click',function() {
-//     if (convertedNumber > 0) {
-//         convertedNumber -= 1;  // Decrease the number by 1
-//         document.getElementById("count-minus").innerText = convertedNumber; // Update the displayed number
-//     } else {
-//         alert("The number cannot be reduced further!");
-//     }
-// })
-
-// Get all the buttons with the class 'reduceBtn'
-// const buttons = document.querySelectorAll('.reduceBtn');
-
-// Add event listener to each button to trigger the reduceNumber function when clicked
-// buttons.forEach( => {
-//     button.addEventListener('click', reduceNumber);
-// });
